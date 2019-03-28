@@ -1,9 +1,9 @@
 package example;
 
-import static io.restassured.RestAssured.*;
-import static org.hamcrest.core.Is.is;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
+import static io.restassured.RestAssured.when;
+import static org.hamcrest.core.Is.is;
 
 public class ComponentTest {
 
