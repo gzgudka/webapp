@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+
+  app:
+    image: example/webapp-app:1.0-SNAPSHOT
+
+  component-tests:
+    image: example/webapp-component-tests:1.0-SNAPSHOT
+    environment:
+      - BASE_URL=http://app:8080
+    depends_on:
+      - app
