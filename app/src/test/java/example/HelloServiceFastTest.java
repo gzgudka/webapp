@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 
-public class HelloServiceTest {
+public class HelloServiceFastTest {
 
     @Test
     public void shouldSayHelloWhenGregCallsIt() {
