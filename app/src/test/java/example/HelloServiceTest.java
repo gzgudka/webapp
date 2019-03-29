@@ -8,7 +8,7 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.jupiter.api.parallel.ExecutionMode.CONCURRENT;
 
 @Execution(CONCURRENT)
-public class HelloServiceFastTest {
+public class HelloServiceTest {
 
     @Test
     public void shouldSayHelloWhenGregCallsIt() {
